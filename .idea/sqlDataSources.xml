@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="d2542125-7cc3-4a20-bbe6-591ce176f427" name="@Bank_DB Mapping">
+      <data-sources db="8c224779-5b73-46bb-adf8-cfe5f596bbd2" ddl="0d664ac9-1ffe-4bd8-aba5-e44e7ffc05f4" />
+    </mapping>
+  </component>
+</project>
