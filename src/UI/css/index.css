@@ -1,3 +1,7 @@
 body {
   background-color: rgb(41, 14, 14);
+}
+body p {
+  color: white;
+  font-size: 10em;
 }/*# sourceMappingURL=index.css.map */
