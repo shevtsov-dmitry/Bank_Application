@@ -1,7 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap");
-@media (max-width: 400px) {
+body {
+  background-color: rgb(39, 43, 43);
+}
+
+@media (max-width: 425px) {
   h1 {
     font-size: 160%;
     padding: 0;
