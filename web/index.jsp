@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Authorization</title>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <a href="info.jsp"><h1>Log In</h1></a>
+        <div class="icon">
+            <img src="../resourses/application icons/app icon.png" alt="">
+        </div>
+    </header> 
+   
+    <!-- registration blocks -->
+    <section>
+        <!-- country -->
+        <div class="country_choose">
+            <img src="../resourses/application icons/globe location.png" alt="">
+            <p>United States</p>
+            <img src="../resourses/application icons/arrow.png" class="arrow"  alt="">
+        </div>
+        
+        <div class="mail_password">
+            <!-- mail -->
+            <div class="mail">
+                <img src="../resourses/application icons/mail.png" alt="">
+                <input type="text" placeholder="Email ">
+            </div>
+
+            <hr>
+
+            <!-- password -->
+            <div class="password">
+                <img src="../resourses/application icons/lock.png" alt="">
+                <input type="text" placeholder="Password">
+            </div>
+        </div>
+
+        <!-- sign in -->
+        <a href="html/registration.html"><button class="sign-in">Sign In</button></a>
+        <!-- Forget Password? -->
+        <button class="forget-password"> Forget Password?</button>
+        <!-- create account -->
+        <div class="haaaazeeee">    
+            <p id="create_new_account">Create New Account</p>
+            <hr id="hr_related_to_create_new_account">
+        </div>
+
+        <!-- policy -->
+        <footer><p>At our company, we take your privacy seriously. We understand that your personal information is important to you and we want to assure you that it is safe with us. <u><b>We collect personal information</b></u>, such as your name, email address, and other contact information, when you register on our website or sign up for our services. We use this information to provide you with the services you have requested and to communicate with you about your account or our services.</p></footer>
+    </section>
+
+
+
+</body>
+</html>

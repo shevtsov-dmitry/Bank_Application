@@ -2,33 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4cffccc-c909-40de-ab9d-0df9adb6203e" name="Changes" comment="I've created few starting classes as Main, Authorization part and established connection with database with ConnectorData class.">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mariadb_java_client_3_0_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqlDataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bank_Application.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/AppButtons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ConnectorData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/autorization/AutentificationUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/autorization/CheckAuthentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/autorization/CheckRegex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/autorization/ForgotPassword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/autorization/Registration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc_driver/mariadb-java-client-3.0.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc_driver/mysql-connector-j-8.0.31.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resourses/application icons/card.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resourses/application icons/history.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resourses/application icons/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resourses/application icons/payment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resourses/application icons/settings.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resourses/user icons/default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resourses/user icons/profileIcon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Bank_Application_Web_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/META-INF/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ConstantSettings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/autorization/AuthenticationUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/home/Home.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank_Application.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Bank_Application.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/autorization/AutentificationUI.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -66,15 +49,18 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/shado/IdeaProjects/Bank_Application/src/jdbc_driver/mariadb-java-client-3.0.7.jar&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
       &quot;mysql&quot;,
       &quot;mariadb&quot;
+    ],
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
     ]
   }
 }</component>
@@ -86,8 +72,15 @@
       <recent name="C:\Users\shado\IdeaProjects\Bank_Application\src\mariaDB_Driver" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.Main">
-    <configuration name="ConnectorData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.711">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Bank_Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.ConnectorData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ConnectorData" />
       <module name="Bank_Application" />
       <extension name="coverage">
@@ -100,13 +93,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Bank_Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="com.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Main" />
       <module name="Bank_Application" />
@@ -114,10 +100,113 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ColorChanger" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ColorChanger" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/ColorChanger.java" />
+      <shortenClasspath name="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.711" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.711" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Bank_Application:Web exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Bank_Application_Web_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="4cc07908-e458-410a-8977-30c2566974cc" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52571" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Bank_Application:Web exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.com.ConnectorData" />
+      <item itemvalue="Application.com.Main" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Java Scratch.ColorChanger" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.711" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Java Scratch.ColorChanger" />
         <item itemvalue="Application.com.Main" />
-        <item itemvalue="Application.ConnectorData" />
+        <item itemvalue="Application.com.ConnectorData" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
